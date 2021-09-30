@@ -15,3 +15,9 @@ struct ParshanimApp: App {
         }
     }
 }
+
+struct ParshanimApp_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
+}

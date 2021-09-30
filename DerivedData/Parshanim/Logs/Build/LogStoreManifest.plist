@@ -176,6 +176,40 @@
 			<key>uniqueIdentifier</key>
 			<string>4553975F-B012-46FB-B11C-26AF5D05DEC5</string>
 		</dict>
+		<key>4F977154-FBDD-4FB0-9D6B-D3CC9852CA11</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4F977154-FBDD-4FB0-9D6B-D3CC9852CA11.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>654736933.171314</real>
+			<key>timeStoppedRecording</key>
+			<real>654736934.10752702</real>
+			<key>title</key>
+			<string>Build for Previews Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>4F977154-FBDD-4FB0-9D6B-D3CC9852CA11</string>
+		</dict>
 		<key>5BD3FEA4-90C4-4286-B929-7DE7BB247485</key>
 		<dict>
 			<key>className</key>
