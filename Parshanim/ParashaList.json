@@ -1,0 +1,251 @@
+[
+    {
+        "id": 1,
+        "name": "Bereshit",
+        "parashiot":
+        [
+            {
+                "id": 1,
+                "name": "Bereshit",
+            },
+            {
+                "id": 2,
+                "name": "Noach",
+            },
+            {
+                "id": 3,
+                "name": "Lech lecha",
+            },
+            {
+                "id": 4,
+                "name": "Vayera",
+            },
+            {
+                "id": 5,
+                "name": "Chaye Sara",
+            },
+            {
+                "id": 6,
+                "name": "Toldot",
+            },
+            {
+                "id": 7,
+                "name": "Vayetze",
+            },
+            {
+                "id": 8,
+                "name": "Vayishlach",
+            },
+            {
+                "id": 9,
+                "name": "Vayeshev",
+            },
+            {
+                "id": 10,
+                "name": "Miketz",
+            },
+            {
+                "id": 11,
+                "name": "Vayigash",
+            },
+            {
+                "id": 12,
+                "name": "Vayechi",
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Shmot",
+        "parashiot":
+        [
+            {
+                "id": 13,
+                "name": "Shmot",
+            },
+            {
+                "id": 14,
+                "name": "Vaera",
+            },
+            {
+                "id": 15,
+                "name": "Bo",
+            },
+            {
+                "id": 16,
+                "name": "Beshalach",
+            },
+            {
+                "id": 17,
+                "name": "Yitro",
+            },
+            {
+                "id": 18,
+                "name": "Mishpatim",
+            },
+            {
+                "id": 19,
+                "name": "Teruma",
+            },
+            {
+                "id": 20,
+                "name": "Tetzave",
+            },
+            {
+                "id": 21,
+                "name": "Ki tisa",
+            },
+            {
+                "id": 22,
+                "name": "Vayakhel",
+            },
+            {
+                "id": 23,
+                "name": "Pekudei",
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Vayikra",
+        "parashiot":
+        [
+            {
+                "id": 24,
+                "name": "Vayikra",
+            },
+            {
+                "id": 25,
+                "name": "Tzav",
+            },
+            {
+                "id": 26,
+                "name": "Shmini",
+            },
+            {
+                "id": 27,
+                "name": "Tazria",
+            },
+            {
+                "id": 28,
+                "name": "Metzora",
+            },
+            {
+                "id": 29,
+                "name": "Acharei",
+            },
+            {
+                "id": 30,
+                "name": "Kedoshim",
+            },
+            {
+                "id": 31,
+                "name": "Emor",
+            },
+            {
+                "id": 32,
+                "name": "Bechukotai",
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bamidbar",
+        "parashiot":
+        [
+            {
+                "id": 33,
+                "name": "Bamidbar",
+            },
+            {
+                "id": 34,
+                "name": "Naso",
+            },
+            {
+                "id": 35,
+                "name": "Behhalotecha",
+            },
+            {
+                "id": 36,
+                "name": "Shlach",
+            },
+            {
+                "id": 37,
+                "name": "Korach",
+            },
+            {
+                "id": 38,
+                "name": "Chukat",
+            },
+            {
+                "id": 39,
+                "name": "Balak",
+            },
+            {
+                "id": 40,
+                "name": "Pinchas",
+            },
+            {
+                "id": 41,
+                "name": "Matot",
+            },
+            {
+                "id": 42,
+                "name": "Masaei",
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Devarim",
+        "parashiot":
+        [
+            {
+                "id": 43,
+                "name": "Devarim",
+            },
+            {
+                "id": 44,
+                "name": "Vaetchanan",
+            },
+            {
+                "id": 45,
+                "name": "Ekev",
+            },
+            {
+                "id": 46,
+                "name": "Reeh",
+            },
+            {
+                "id": 47,
+                "name": "Shoftim",
+            },
+            {
+                "id": 48,
+                "name": "Ki Tetze",
+            },
+            {
+                "id": 49,
+                "name": "Ki Tavo",
+            },
+            {
+                "id": 50,
+                "name": "Natzavim",
+            },
+            {
+                "id": 51,
+                "name": "Vayelech",
+            },
+            {
+                "id": 52,
+                "name": "Haazinu",
+            },
+            {
+                "id": 53,
+                "name": "Vezot Habracha",
+            }
+        ]
+    }
+    
+]
+

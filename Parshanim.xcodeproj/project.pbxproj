@@ -13,6 +13,7 @@
 		D4C3697027066FC000C36D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696F27066FC000C36D03 /* Preview Assets.xcassets */; };
 		D4C3697B27066FC000C36D03 /* ParshanimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3697A27066FC000C36D03 /* ParshanimTests.swift */; };
 		D4C3698627066FC000C36D03 /* ParshanimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3698527066FC000C36D03 /* ParshanimUITests.swift */; };
+		D4C36994270677F200C36D03 /* ParashaList.json in Resources */ = {isa = PBXBuildFile; fileRef = D4C36993270677F200C36D03 /* ParashaList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D4C3698127066FC000C36D03 /* ParshanimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParshanimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C3698527066FC000C36D03 /* ParshanimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimUITests.swift; sourceTree = "<group>"; };
 		D4C3698727066FC000C36D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C36993270677F200C36D03 /* ParashaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ParashaList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D4C3696827066FC000C36D03 /* ParshanimApp.swift */,
 				D4C3696A27066FC000C36D03 /* ContentView.swift */,
+				D4C36993270677F200C36D03 /* ParashaList.json */,
 				D4C3696C27066FC000C36D03 /* Assets.xcassets */,
 				D4C3697127066FC000C36D03 /* Info.plist */,
 				D4C3696E27066FC000C36D03 /* Preview Content */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C3697027066FC000C36D03 /* Preview Assets.xcassets in Resources */,
+				D4C36994270677F200C36D03 /* ParashaList.json in Resources */,
 				D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
