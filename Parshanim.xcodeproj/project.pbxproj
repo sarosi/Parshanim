@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696827066FC000C36D03 /* ParshanimApp.swift */; };
+		D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696A27066FC000C36D03 /* ContentView.swift */; };
+		D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696C27066FC000C36D03 /* Assets.xcassets */; };
+		D4C3697027066FC000C36D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696F27066FC000C36D03 /* Preview Assets.xcassets */; };
+		D4C3697B27066FC000C36D03 /* ParshanimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3697A27066FC000C36D03 /* ParshanimTests.swift */; };
+		D4C3698627066FC000C36D03 /* ParshanimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3698527066FC000C36D03 /* ParshanimUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4C3697727066FC000C36D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C3695D27066FC000C36D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C3696427066FC000C36D03;
+			remoteInfo = Parshanim;
+		};
+		D4C3698227066FC000C36D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C3695D27066FC000C36D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C3696427066FC000C36D03;
+			remoteInfo = Parshanim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4C3696527066FC000C36D03 /* Parshanim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parshanim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3696827066FC000C36D03 /* ParshanimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimApp.swift; sourceTree = "<group>"; };
+		D4C3696A27066FC000C36D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4C3696C27066FC000C36D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C3696F27066FC000C36D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4C3697127066FC000C36D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C3697627066FC000C36D03 /* ParshanimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParshanimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3697A27066FC000C36D03 /* ParshanimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimTests.swift; sourceTree = "<group>"; };
+		D4C3697C27066FC000C36D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C3698127066FC000C36D03 /* ParshanimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParshanimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C3698527066FC000C36D03 /* ParshanimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimUITests.swift; sourceTree = "<group>"; };
+		D4C3698727066FC000C36D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C3696227066FC000C36D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697327066FC000C36D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697E27066FC000C36D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4C3695C27066FC000C36D03 = {
+			isa = PBXGroup;
+			children = (
+				D4C3696727066FC000C36D03 /* Parshanim */,
+				D4C3697927066FC000C36D03 /* ParshanimTests */,
+				D4C3698427066FC000C36D03 /* ParshanimUITests */,
+				D4C3696627066FC000C36D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C3696627066FC000C36D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3696527066FC000C36D03 /* Parshanim.app */,
+				D4C3697627066FC000C36D03 /* ParshanimTests.xctest */,
+				D4C3698127066FC000C36D03 /* ParshanimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C3696727066FC000C36D03 /* Parshanim */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3696827066FC000C36D03 /* ParshanimApp.swift */,
+				D4C3696A27066FC000C36D03 /* ContentView.swift */,
+				D4C3696C27066FC000C36D03 /* Assets.xcassets */,
+				D4C3697127066FC000C36D03 /* Info.plist */,
+				D4C3696E27066FC000C36D03 /* Preview Content */,
+			);
+			path = Parshanim;
+			sourceTree = "<group>";
+		};
+		D4C3696E27066FC000C36D03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3696F27066FC000C36D03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4C3697927066FC000C36D03 /* ParshanimTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3697A27066FC000C36D03 /* ParshanimTests.swift */,
+				D4C3697C27066FC000C36D03 /* Info.plist */,
+			);
+			path = ParshanimTests;
+			sourceTree = "<group>";
+		};
+		D4C3698427066FC000C36D03 /* ParshanimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3698527066FC000C36D03 /* ParshanimUITests.swift */,
+				D4C3698727066FC000C36D03 /* Info.plist */,
+			);
+			path = ParshanimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C3696427066FC000C36D03 /* Parshanim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C3698A27066FC000C36D03 /* Build configuration list for PBXNativeTarget "Parshanim" */;
+			buildPhases = (
+				D4C3696127066FC000C36D03 /* Sources */,
+				D4C3696227066FC000C36D03 /* Frameworks */,
+				D4C3696327066FC000C36D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parshanim;
+			productName = Parshanim;
+			productReference = D4C3696527066FC000C36D03 /* Parshanim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4C3697527066FC000C36D03 /* ParshanimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C3698D27066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimTests" */;
+			buildPhases = (
+				D4C3697227066FC000C36D03 /* Sources */,
+				D4C3697327066FC000C36D03 /* Frameworks */,
+				D4C3697427066FC000C36D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C3697827066FC000C36D03 /* PBXTargetDependency */,
+			);
+			name = ParshanimTests;
+			productName = ParshanimTests;
+			productReference = D4C3697627066FC000C36D03 /* ParshanimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4C3698027066FC000C36D03 /* ParshanimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C3699027066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimUITests" */;
+			buildPhases = (
+				D4C3697D27066FC000C36D03 /* Sources */,
+				D4C3697E27066FC000C36D03 /* Frameworks */,
+				D4C3697F27066FC000C36D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C3698327066FC000C36D03 /* PBXTargetDependency */,
+			);
+			name = ParshanimUITests;
+			productName = ParshanimUITests;
+			productReference = D4C3698127066FC000C36D03 /* ParshanimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C3695D27066FC000C36D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D4C3696427066FC000C36D03 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D4C3697527066FC000C36D03 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D4C3696427066FC000C36D03;
+					};
+					D4C3698027066FC000C36D03 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D4C3696427066FC000C36D03;
+					};
+				};
+			};
+			buildConfigurationList = D4C3696027066FC000C36D03 /* Build configuration list for PBXProject "Parshanim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C3695C27066FC000C36D03;
+			productRefGroup = D4C3696627066FC000C36D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C3696427066FC000C36D03 /* Parshanim */,
+				D4C3697527066FC000C36D03 /* ParshanimTests */,
+				D4C3698027066FC000C36D03 /* ParshanimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C3696327066FC000C36D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3697027066FC000C36D03 /* Preview Assets.xcassets in Resources */,
+				D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697427066FC000C36D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697F27066FC000C36D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C3696127066FC000C36D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */,
+				D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697227066FC000C36D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3697B27066FC000C36D03 /* ParshanimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C3697D27066FC000C36D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C3698627066FC000C36D03 /* ParshanimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4C3697827066FC000C36D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C3696427066FC000C36D03 /* Parshanim */;
+			targetProxy = D4C3697727066FC000C36D03 /* PBXContainerItemProxy */;
+		};
+		D4C3698327066FC000C36D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C3696427066FC000C36D03 /* Parshanim */;
+			targetProxy = D4C3698227066FC000C36D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4C3698827066FC000C36D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4C3698927066FC000C36D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C3698B27066FC000C36D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Parshanim/Preview Content\"";
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Parshanim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.Parshanim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4C3698C27066FC000C36D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Parshanim/Preview Content\"";
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Parshanim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.Parshanim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4C3698E27066FC000C36D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				INFOPLIST_FILE = ParshanimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.ParshanimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parshanim.app/Parshanim";
+			};
+			name = Debug;
+		};
+		D4C3698F27066FC000C36D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				INFOPLIST_FILE = ParshanimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.ParshanimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parshanim.app/Parshanim";
+			};
+			name = Release;
+		};
+		D4C3699127066FC000C36D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				INFOPLIST_FILE = ParshanimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.ParshanimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parshanim;
+			};
+			name = Debug;
+		};
+		D4C3699227066FC000C36D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35LTRT59ET;
+				INFOPLIST_FILE = ParshanimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarosi.ParshanimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parshanim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C3696027066FC000C36D03 /* Build configuration list for PBXProject "Parshanim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3698827066FC000C36D03 /* Debug */,
+				D4C3698927066FC000C36D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C3698A27066FC000C36D03 /* Build configuration list for PBXNativeTarget "Parshanim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3698B27066FC000C36D03 /* Debug */,
+				D4C3698C27066FC000C36D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C3698D27066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3698E27066FC000C36D03 /* Debug */,
+				D4C3698F27066FC000C36D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C3699027066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C3699127066FC000C36D03 /* Debug */,
+				D4C3699227066FC000C36D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C3695D27066FC000C36D03 /* Project object */;
+}

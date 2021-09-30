@@ -1,0 +1,52 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "10d207ae10f2965340b534794fc35eb85bcdbe088412696e760ebe8c2038e358"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData/Parshanim/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData/Parshanim/Build/Products",
+      "derivedDataPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData/Parshanim/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData/Parshanim/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/gaborsarosi/Projects/iOS/Parshanim/DerivedData/Parshanim/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
