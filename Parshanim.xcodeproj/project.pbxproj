@@ -14,6 +14,10 @@
 		D4C3697B27066FC000C36D03 /* ParshanimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3697A27066FC000C36D03 /* ParshanimTests.swift */; };
 		D4C3698627066FC000C36D03 /* ParshanimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3698527066FC000C36D03 /* ParshanimUITests.swift */; };
 		D4C36994270677F200C36D03 /* ParashaList.json in Resources */ = {isa = PBXBuildFile; fileRef = D4C36993270677F200C36D03 /* ParashaList.json */; };
+		D4C369982706798500C36D03 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C369972706798500C36D03 /* MainView.swift */; };
+		D4C3699A27067A0300C36D03 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699927067A0300C36D03 /* FriendsView.swift */; };
+		D4C3699C27067A7100C36D03 /* Parshiot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699B27067A7100C36D03 /* Parshiot.swift */; };
+		D4C3699F27067B5400C36D03 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699E27067B5400C36D03 /* CodeableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D4C3698527066FC000C36D03 /* ParshanimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimUITests.swift; sourceTree = "<group>"; };
 		D4C3698727066FC000C36D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4C36993270677F200C36D03 /* ParashaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ParashaList.json; sourceTree = "<group>"; };
+		D4C369972706798500C36D03 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D4C3699927067A0300C36D03 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		D4C3699B27067A7100C36D03 /* Parshiot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parshiot.swift; sourceTree = "<group>"; };
+		D4C3699E27067B5400C36D03 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,15 @@
 		D4C3696727066FC000C36D03 /* Parshanim */ = {
 			isa = PBXGroup;
 			children = (
+				D4C369A027067B8500C36D03 /* Views */,
+				D4C3699D27067B3300C36D03 /* Extension */,
 				D4C3696827066FC000C36D03 /* ParshanimApp.swift */,
-				D4C3696A27066FC000C36D03 /* ContentView.swift */,
 				D4C36993270677F200C36D03 /* ParashaList.json */,
 				D4C3696C27066FC000C36D03 /* Assets.xcassets */,
 				D4C3697127066FC000C36D03 /* Info.plist */,
 				D4C3696E27066FC000C36D03 /* Preview Content */,
+				D4C369972706798500C36D03 /* MainView.swift */,
+				D4C3699B27067A7100C36D03 /* Parshiot.swift */,
 			);
 			path = Parshanim;
 			sourceTree = "<group>";
@@ -131,6 +142,23 @@
 				D4C3698727066FC000C36D03 /* Info.plist */,
 			);
 			path = ParshanimUITests;
+			sourceTree = "<group>";
+		};
+		D4C3699D27067B3300C36D03 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3699E27067B5400C36D03 /* CodeableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D4C369A027067B8500C36D03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3696A27066FC000C36D03 /* ContentView.swift */,
+				D4C3699927067A0300C36D03 /* FriendsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */,
+				D4C369982706798500C36D03 /* MainView.swift in Sources */,
+				D4C3699F27067B5400C36D03 /* CodeableBundleExtension.swift in Sources */,
+				D4C3699C27067A7100C36D03 /* Parshiot.swift in Sources */,
+				D4C3699A27067A0300C36D03 /* FriendsView.swift in Sources */,
 				D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

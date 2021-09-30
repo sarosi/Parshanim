@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>7647C654-3DF9-4FC6-8882-BD03C08FE1AA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>7647C654-3DF9-4FC6-8882-BD03C08FE1AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Parshanim-amsfwdmssibupvbwwjpfyjxgtpqe</string>
+			<key>timeStartedRecording</key>
+			<real>654736550.52253699</real>
+			<key>timeStoppedRecording</key>
+			<real>654736550.83161795</real>
+			<key>title</key>
+			<string>Build target Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>7647C654-3DF9-4FC6-8882-BD03C08FE1AA</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
