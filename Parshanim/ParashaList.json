@@ -2,247 +2,305 @@
     {
         "id": 1,
         "name": "Bereshit",
+        "name_he": "בראשית",
         "parashiot":
         [
             {
                 "id": 1,
                 "name": "Bereshit",
+                "name_he": "בראשית",
             },
             {
                 "id": 2,
                 "name": "Noach",
+                "name_he": "נח",
             },
             {
                 "id": 3,
                 "name": "Lech lecha",
+                "name_he": "לך לך",
             },
             {
                 "id": 4,
                 "name": "Vayera",
+                "name_he": "וירא",
             },
             {
                 "id": 5,
                 "name": "Chaye Sara",
+                "name_he": "חיי שרה",
             },
             {
                 "id": 6,
                 "name": "Toldot",
+                "name_he": "תולדות",
             },
             {
                 "id": 7,
                 "name": "Vayetze",
+                "name_he": "ויצא",
             },
             {
                 "id": 8,
                 "name": "Vayishlach",
+                "name_he": "וישלח",
             },
             {
                 "id": 9,
                 "name": "Vayeshev",
+                "name_he": "וישב",
             },
             {
                 "id": 10,
                 "name": "Miketz",
+                "name_he": "מקץ",
             },
             {
                 "id": 11,
                 "name": "Vayigash",
+                "name_he": "ויגש",
             },
             {
                 "id": 12,
                 "name": "Vayechi",
+                "name_he": "ויחי",
             }
         ]
     },
     {
         "id": 2,
         "name": "Shmot",
+        "name_he": "שמות",
         "parashiot":
         [
             {
                 "id": 13,
                 "name": "Shmot",
+                "name_he": "שמות",
             },
             {
                 "id": 14,
                 "name": "Vaera",
+                "name_he": "וארא",
             },
             {
                 "id": 15,
                 "name": "Bo",
+                "name_he": "בא",
             },
             {
                 "id": 16,
                 "name": "Beshalach",
+                "name_he": "בשלח",
             },
             {
                 "id": 17,
                 "name": "Yitro",
+                "name_he": "יתרו",
             },
             {
                 "id": 18,
                 "name": "Mishpatim",
+                "name_he": "משפתים",
             },
             {
                 "id": 19,
                 "name": "Teruma",
+                "name_he": "תרומה",
             },
             {
                 "id": 20,
                 "name": "Tetzave",
+                "name_he": "תצוה",
             },
             {
                 "id": 21,
                 "name": "Ki tisa",
+                "name_he": "כי תסא",
             },
             {
                 "id": 22,
                 "name": "Vayakhel",
+                "name_he": "ויקהל",
             },
             {
                 "id": 23,
                 "name": "Pekudei",
+                "name_he": "פקודי",
             }
         ]
     },
     {
         "id": 3,
         "name": "Vayikra",
+        "name_he": "ויקרא",
         "parashiot":
         [
             {
                 "id": 24,
                 "name": "Vayikra",
+                "name_he": "ויקרא",
             },
             {
                 "id": 25,
                 "name": "Tzav",
+                "name_he": "צו",
             },
             {
                 "id": 26,
                 "name": "Shmini",
+                "name_he": "שמיני",
             },
             {
                 "id": 27,
                 "name": "Tazria",
+                "name_he": "תזריע",
             },
             {
                 "id": 28,
                 "name": "Metzora",
+                "name_he": "מצורע",
             },
             {
                 "id": 29,
                 "name": "Acharei",
+                "name_he": "אחרי",
             },
             {
                 "id": 30,
                 "name": "Kedoshim",
+                "name_he": "קדושים",
             },
             {
                 "id": 31,
                 "name": "Emor",
+                "name_he": "אמור",
             },
             {
                 "id": 32,
                 "name": "Bechukotai",
+                "name_he": "בחוקותי",
             }
         ]
     },
     {
         "id": 4,
         "name": "Bamidbar",
+        "name_he": "במדבר",
         "parashiot":
         [
             {
                 "id": 33,
                 "name": "Bamidbar",
+                "name_he": "במדבר",
             },
             {
                 "id": 34,
                 "name": "Naso",
+                "name_he": "נסו",
             },
             {
                 "id": 35,
-                "name": "Behhalotecha",
+                "name": "Behaalotecha",
+                "name_he": "בהעלותך",
             },
             {
                 "id": 36,
                 "name": "Shlach",
+                "name_he": "שלח",
             },
             {
                 "id": 37,
                 "name": "Korach",
+                "name_he": "קרח",
             },
             {
                 "id": 38,
                 "name": "Chukat",
+                "name_he": "חקת",
             },
             {
                 "id": 39,
                 "name": "Balak",
+                "name_he": "בלק",
             },
             {
                 "id": 40,
                 "name": "Pinchas",
+                "name_he": "פנחס",
             },
             {
                 "id": 41,
                 "name": "Matot",
+                "name_he": "מטות",
             },
             {
                 "id": 42,
                 "name": "Masaei",
+                "name_he": "מסעי",
             }
         ]
     },
     {
         "id": 5,
         "name": "Devarim",
+        "name_he": "דברים",
         "parashiot":
         [
             {
                 "id": 43,
                 "name": "Devarim",
+                "name_he": "דברים",
             },
             {
                 "id": 44,
                 "name": "Vaetchanan",
+                "name_he": "ואתחנן",
             },
             {
                 "id": 45,
                 "name": "Ekev",
+                "name_he": "עקב",
             },
             {
                 "id": 46,
                 "name": "Reeh",
+                "name_he": "ראה",
             },
             {
                 "id": 47,
                 "name": "Shoftim",
+                "name_he": "שופטים",
             },
             {
                 "id": 48,
                 "name": "Ki Tetze",
+                "name_he": "כי תצא",
             },
             {
                 "id": 49,
                 "name": "Ki Tavo",
+                "name_he": "כי תבוא",
             },
             {
                 "id": 50,
-                "name": "Natzavim",
+                "name": "Nitzavim",
+                "name_he": "נצבים",
             },
             {
                 "id": 51,
                 "name": "Vayelech",
+                "name_he": "וילך",
             },
             {
                 "id": 52,
                 "name": "Haazinu",
+                "name_he": "האזינו",
             },
             {
                 "id": 53,
                 "name": "Vezot Habracha",
+                "name_he": "וזאת הברכה",
             }
         ]
     }
