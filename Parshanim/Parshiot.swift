@@ -9,11 +9,13 @@ import Foundation
 
 struct Sefer: Codable, Identifiable {
     var id: Int
-    var name: String
+    var name_en: String
+    var name_he: String
     var parashiot: [Parashah]
 }
 
 struct Parashah: Codable, Equatable, Identifiable {
     var id: Int
-    var name: String
+    var name_en: String
+    var name_he: String
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var language = "he"
 
     let parashaList = Bundle.main.decode([Sefer].self,
                                       from: "ParashaList.json")
@@ -16,9 +18,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(parashaList) { sefer in
-                    Section(header: Text(sefer.name)) {
+                    Section(header: Text(language == "he" ? sefer.name_he : sefer.name_en)) {
                         ForEach(sefer.parashiot) { parasha in
-                            Text(parasha.name)
+                            Text(language == "he" ? parasha.name_he : parasha.name_en)
                         }
                     }
                 }
