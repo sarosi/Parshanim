@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var language = "he"
+    @AppStorage("kLanguageKey") var language: String = UserDefaults.standard.string(forKey: "kLanguageKey") ?? "עברית"
 
     let parashaList = Bundle.main.decode([Sefer].self,
                                       from: "ParashaList.json")
@@ -18,16 +18,15 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(parashaList) { sefer in
-                    Section(header: Text(language == "he" ? sefer.name_he : sefer.name_en)) {
+                    Section(header: Text(language == "english" ? sefer.name_en : sefer.name_he)) {
                         ForEach(sefer.parashiot) { parasha in
-                            Text(language == "he" ? parasha.name_he : parasha.name_en)
+                            Text(language == "english" ? parasha.name_en : parasha.name_he)
                         }
                     }
                 }
             }
-            .navigationTitle("Chumash")
+            .navigationTitle(language == "english" ? "Chumash" : "חומש")
         }
-        
     }
 }
 

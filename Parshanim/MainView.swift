@@ -18,7 +18,13 @@ struct MainView: View {
             FriendsView()
                 .tabItem {
                     Label("Friends",
-                          systemImage: "person.3") }
+                          systemImage: "person.3")
+                }
+            SettingsView()
+                .tabItem {
+                    Label("Settings",
+                          systemImage: "gearshape.fill")
+                }
         }
     }
 }

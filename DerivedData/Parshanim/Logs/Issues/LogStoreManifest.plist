@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4A1B618D-BA35-4320-B4FA-5BFC85878201</key>
+		<key>A4A3D517-C617-4A9D-A64B-AF56B98830BF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>4A1B618D-BA35-4320-B4FA-5BFC85878201.xcactivitylog</string>
+			<string>A4A3D517-C617-4A9D-A64B-AF56B98830BF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Parshanim-amsfwdmssibupvbwwjpfyjxgtpqe</string>
 			<key>timeStartedRecording</key>
-			<real>654905174.50555599</real>
+			<real>655072614.94449103</real>
 			<key>timeStoppedRecording</key>
-			<real>654905175.16087306</real>
+			<real>655072615.35517299</real>
 			<key>title</key>
 			<string>Build target Parshanim</string>
 			<key>uniqueIdentifier</key>
-			<string>4A1B618D-BA35-4320-B4FA-5BFC85878201</string>
+			<string>A4A3D517-C617-4A9D-A64B-AF56B98830BF</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

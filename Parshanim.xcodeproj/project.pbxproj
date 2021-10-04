@@ -18,6 +18,7 @@
 		D4C3699A27067A0300C36D03 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699927067A0300C36D03 /* FriendsView.swift */; };
 		D4C3699C27067A7100C36D03 /* Parshiot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699B27067A7100C36D03 /* Parshiot.swift */; };
 		D4C3699F27067B5400C36D03 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3699E27067B5400C36D03 /* CodeableBundleExtension.swift */; };
+		D4C369A4270A1C0C00C36D03 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C369A3270A1C0C00C36D03 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D4C3699927067A0300C36D03 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		D4C3699B27067A7100C36D03 /* Parshiot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parshiot.swift; sourceTree = "<group>"; };
 		D4C3699E27067B5400C36D03 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
+		D4C369A3270A1C0C00C36D03 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				D4C3696A27066FC000C36D03 /* ContentView.swift */,
 				D4C3699927067A0300C36D03 /* FriendsView.swift */,
+				D4C369A3270A1C0C00C36D03 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C369A4270A1C0C00C36D03 /* SettingsView.swift in Sources */,
 				D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */,
 				D4C369982706798500C36D03 /* MainView.swift in Sources */,
 				D4C3699F27067B5400C36D03 /* CodeableBundleExtension.swift in Sources */,
@@ -458,7 +462,7 @@
 				DEVELOPMENT_TEAM = 35LTRT59ET;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parshanim/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +484,7 @@
 				DEVELOPMENT_TEAM = 35LTRT59ET;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Parshanim/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
