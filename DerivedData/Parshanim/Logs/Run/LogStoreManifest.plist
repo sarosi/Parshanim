@@ -176,6 +176,40 @@
 			<key>uniqueIdentifier</key>
 			<string>0C8EA9BA-BFBA-47D0-8659-495265B78F62</string>
 		</dict>
+		<key>0DA3A220-4313-4D0C-8D3E-45642BDFBC02</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0DA3A220-4313-4D0C-8D3E-45642BDFBC02.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655167502.76350999</real>
+			<key>timeStoppedRecording</key>
+			<real>655167593.04975903</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>0DA3A220-4313-4D0C-8D3E-45642BDFBC02</string>
+		</dict>
 		<key>12623098-DAF0-4FAC-9701-545FF667D92C</key>
 		<dict>
 			<key>className</key>
@@ -618,6 +652,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3E223ED0-1127-438F-8753-6FA7A4D28226</string>
 		</dict>
+		<key>402101FC-7017-4978-815A-D54F7E622B96</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>402101FC-7017-4978-815A-D54F7E622B96.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655072616.29799902</real>
+			<key>timeStoppedRecording</key>
+			<real>655074655.34005797</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>402101FC-7017-4978-815A-D54F7E622B96</string>
+		</dict>
 		<key>48318F7D-4C70-4F50-AA62-8F748BC2E0AD</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +753,40 @@
 			<string>Run Parshanim</string>
 			<key>uniqueIdentifier</key>
 			<string>4D55C501-6216-406E-961D-E332831815AD</string>
+		</dict>
+		<key>50966761-FD3E-4630-A468-93B787707AF7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>50966761-FD3E-4630-A468-93B787707AF7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655167592.89620399</real>
+			<key>timeStoppedRecording</key>
+			<real>655167671.14298904</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>50966761-FD3E-4630-A468-93B787707AF7</string>
 		</dict>
 		<key>526548A1-8523-4C59-904B-8C0B5EA4C035</key>
 		<dict>
@@ -889,6 +991,40 @@
 			<string>Run Parshanim</string>
 			<key>uniqueIdentifier</key>
 			<string>63F946E8-1EC1-4F17-A89E-0D449620CDA9</string>
+		</dict>
+		<key>64991EE6-FB82-43F2-8439-B6C54D82DA91</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64991EE6-FB82-43F2-8439-B6C54D82DA91.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655074654.66445303</real>
+			<key>timeStoppedRecording</key>
+			<real>655075075.55414701</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>64991EE6-FB82-43F2-8439-B6C54D82DA91</string>
 		</dict>
 		<key>6A8FF6E4-EA79-40FF-80A4-FF0092772A6F</key>
 		<dict>
@@ -1570,6 +1706,40 @@
 			<key>uniqueIdentifier</key>
 			<string>9E01FADB-9765-499D-AD33-BD0CA5C29F56</string>
 		</dict>
+		<key>A0DCE8C3-8504-42B2-8CC3-031507D7BDAF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A0DCE8C3-8504-42B2-8CC3-031507D7BDAF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655075465.91239595</real>
+			<key>timeStoppedRecording</key>
+			<real>655167415.95685005</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>A0DCE8C3-8504-42B2-8CC3-031507D7BDAF</string>
+		</dict>
 		<key>A1FAE08D-4427-43A4-8B06-F8E32BE69536</key>
 		<dict>
 			<key>className</key>
@@ -1637,6 +1807,40 @@
 			<string>Run Parshanim</string>
 			<key>uniqueIdentifier</key>
 			<string>A2B124C2-33F3-4850-9F19-A820F9B7FC48</string>
+		</dict>
+		<key>A3C501A0-D2DC-40C5-8E73-31799BB001B0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A3C501A0-D2DC-40C5-8E73-31799BB001B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655075081.49134505</real>
+			<key>timeStoppedRecording</key>
+			<real>655075269.79216003</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>A3C501A0-D2DC-40C5-8E73-31799BB001B0</string>
 		</dict>
 		<key>A6C72D4D-942C-4F04-9F0E-830FE271F21E</key>
 		<dict>
@@ -1875,6 +2079,40 @@
 			<string>Run Parshanim</string>
 			<key>uniqueIdentifier</key>
 			<string>C041FEE9-48BF-4624-81C7-CCD213426B9E</string>
+		</dict>
+		<key>C0AA14D6-C122-4D42-B43D-92D461C947BE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C0AA14D6-C122-4D42-B43D-92D461C947BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655167671.02457201</real>
+			<key>timeStoppedRecording</key>
+			<real>655167877.43033099</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>C0AA14D6-C122-4D42-B43D-92D461C947BE</string>
 		</dict>
 		<key>CFFB1641-D219-4FE6-83C7-F23C4C26FEB4</key>
 		<dict>
@@ -2148,6 +2386,40 @@
 			<key>uniqueIdentifier</key>
 			<string>EC1679FA-E49B-42B3-BD7D-14A59CB600E9</string>
 		</dict>
+		<key>EDFE4855-1F28-4286-A69B-CF141B6604CF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EDFE4855-1F28-4286-A69B-CF141B6604CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655075269.62383997</real>
+			<key>timeStoppedRecording</key>
+			<real>655075466.07839096</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>EDFE4855-1F28-4286-A69B-CF141B6604CF</string>
+		</dict>
 		<key>EE0DD3C3-3AFE-4B37-B6C4-A74E2855548B</key>
 		<dict>
 			<key>className</key>
@@ -2181,6 +2453,40 @@
 			<string>Run Parshanim</string>
 			<key>uniqueIdentifier</key>
 			<string>EE0DD3C3-3AFE-4B37-B6C4-A74E2855548B</string>
+		</dict>
+		<key>F1B5441C-9CAF-4577-BC55-115AF4F8AEC6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F1B5441C-9CAF-4577-BC55-115AF4F8AEC6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>655167415.78897798</real>
+			<key>timeStoppedRecording</key>
+			<real>655167502.91640699</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>F1B5441C-9CAF-4577-BC55-115AF4F8AEC6</string>
 		</dict>
 		<key>F4BBBFDE-435D-46C6-8F02-78F356C4869E</key>
 		<dict>

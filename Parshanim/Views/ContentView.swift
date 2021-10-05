@@ -27,6 +27,8 @@ struct ContentView: View {
             }
             .navigationTitle(language == "english" ? "Chumash" : "חומש")
         }
+        .environment(\.locale, language == "english" ? Locale(identifier: "en") : Locale(identifier: "he"))
+        .environment(\.layoutDirection, language == "english" ? .leftToRight : .rightToLeft)
     }
 }
 
