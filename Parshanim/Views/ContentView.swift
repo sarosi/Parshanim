@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @AppStorage("kLanguageKey") var language: String = UserDefaults.standard.string(forKey: "kLanguageKey") ?? "עברית"
 
-    let parashaList = Bundle.main.decode([Sefer].self,
+    public let parashaList = Bundle.main.decode([Sefer].self,
                                       from: "ParashaList.json")
     
     var body: some View {
@@ -20,7 +20,9 @@ struct ContentView: View {
                 ForEach(parashaList) { sefer in
                     Section(header: Text(language == "english" ? sefer.name_en : sefer.name_he)) {
                         ForEach(sefer.parashiot) { parasha in
-                            Text(language == "english" ? parasha.name_en : parasha.name_he)
+                            NavigationLink(destination: ParashaDetailView(parasha: parasha)) {
+                                Text(language == "english" ? parasha.name_en : parasha.name_he)
+                            }
                         }
                     }
                 }
