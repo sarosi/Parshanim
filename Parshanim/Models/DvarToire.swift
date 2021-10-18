@@ -15,14 +15,16 @@ enum Medium {
     case Link
 }
 
-struct DvarToire {
-    var id: UUID
-    var timestamp: NSDate
-    var authorId: Int
+struct DvarToire: Codable, Identifiable {
+    var id: String //UUID
+    var timestamp: String
+    var authorId: String
     var parashaId: Int
-    var medium: Medium
+    //var medium: Medium
+    var title: String
     var textContent: String
-    var binaryContent: NSObject
+    //var binaryContent: NSObject
     var link: String
-    var tagList: [String]
+    //var tagList: [String]
+    var likes: Int
 }
