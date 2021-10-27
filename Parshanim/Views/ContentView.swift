@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @AppStorage("kLanguageKey") var language: String = UserDefaults.standard.string(forKey: "kLanguageKey") ?? "עברית"
+    @AppStorage("kLanguageKey") var language: String = UserDefaults.standard.string(forKey: "kLanguageKey") ?? "english"
 
     public let parashaList = Bundle.main.decode([Sefer].self,
                                       from: "ParashaList.json")

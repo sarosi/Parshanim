@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D420B2AD271EC00A00DFF878 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420B2AC271EC00A00DFF878 /* User.swift */; };
+		D47277B4272A031000F98936 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47277B3272A031000F98936 /* ComposeView.swift */; };
 		D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696827066FC000C36D03 /* ParshanimApp.swift */; };
 		D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696A27066FC000C36D03 /* ContentView.swift */; };
 		D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696C27066FC000C36D03 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D420B2AC271EC00A00DFF878 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D47277B3272A031000F98936 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 		D4C3696527066FC000C36D03 /* Parshanim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parshanim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C3696827066FC000C36D03 /* ParshanimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimApp.swift; sourceTree = "<group>"; };
 		D4C3696A27066FC000C36D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				D4C3699927067A0300C36D03 /* FriendsView.swift */,
 				D4C369A3270A1C0C00C36D03 /* SettingsView.swift */,
 				D4C369A527125D0700C36D03 /* ParashaDetailView.swift */,
+				D47277B3272A031000F98936 /* ComposeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			children = (
 				D4C3699B27067A7100C36D03 /* Parshiot.swift */,
 				D4C369A82713A61A00C36D03 /* DvarToire.swift */,
+				D420B2AC271EC00A00DFF878 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -323,11 +329,13 @@
 				D4C369A627125D0700C36D03 /* ParashaDetailView.swift in Sources */,
 				D4C369A4270A1C0C00C36D03 /* SettingsView.swift in Sources */,
 				D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */,
+				D47277B4272A031000F98936 /* ComposeView.swift in Sources */,
 				D4C369982706798500C36D03 /* MainView.swift in Sources */,
 				D4C3699F27067B5400C36D03 /* CodeableBundleExtension.swift in Sources */,
 				D4C3699C27067A7100C36D03 /* Parshiot.swift in Sources */,
 				D4C3699A27067A0300C36D03 /* FriendsView.swift in Sources */,
 				D4C369A92713A61A00C36D03 /* DvarToire.swift in Sources */,
+				D420B2AD271EC00A00DFF878 /* User.swift in Sources */,
 				D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
