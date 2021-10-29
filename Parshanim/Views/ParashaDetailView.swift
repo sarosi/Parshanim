@@ -32,8 +32,8 @@ struct ParashaDetailView: View {
                         ComposeView()
                     })
                     .frame(width: 120, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.orange)
-                    .background(Color.gray.opacity(0.9))
+                    .foregroundColor(.red)
+                    .background(Color.gray.opacity(0.98))
                     .cornerRadius(38.0)
                     .padding()
                     .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/.opacity(0.3),
