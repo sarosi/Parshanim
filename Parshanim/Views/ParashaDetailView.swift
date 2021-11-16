@@ -77,6 +77,6 @@ struct DvarToireCellView : View {
 
 struct ParashaDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ParashaDetailView(parasha: ContentView().parashaList[0].parashiot[3])
+        ParashaDetailView(parasha: Constants.parashaList[0].parashiot[3])
     }
 }

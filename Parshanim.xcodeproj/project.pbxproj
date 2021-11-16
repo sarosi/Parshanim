@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7071198C61D37586C64E0D9B /* Pods_Parshanim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8736604FDEF61BBE9C97AEB7 /* Pods_Parshanim.framework */; };
+		A510103409F4F9F174BB4516 /* Pods_ParshanimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F030A521CC121527A846CDA6 /* Pods_ParshanimTests.framework */; };
 		D420B2AD271EC00A00DFF878 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420B2AC271EC00A00DFF878 /* User.swift */; };
 		D47277B4272A031000F98936 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47277B3272A031000F98936 /* ComposeView.swift */; };
+		D47277B7272E063D00F98936 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47277B6272E063D00F98936 /* Constants.swift */; };
+		D47277BC272E0B1000F98936 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47277BB272E0B1000F98936 /* Helper.swift */; };
+		D47277BE273C262D00F98936 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47277BD273C262D00F98936 /* GoogleService-Info.plist */; };
 		D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696827066FC000C36D03 /* ParshanimApp.swift */; };
 		D4C3696B27066FC000C36D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3696A27066FC000C36D03 /* ContentView.swift */; };
 		D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C3696C27066FC000C36D03 /* Assets.xcassets */; };
@@ -24,6 +29,7 @@
 		D4C369A627125D0700C36D03 /* ParashaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C369A527125D0700C36D03 /* ParashaDetailView.swift */; };
 		D4C369A92713A61A00C36D03 /* DvarToire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C369A82713A61A00C36D03 /* DvarToire.swift */; };
 		D4C369AC2713ABEB00C36D03 /* DivreToire.json in Resources */ = {isa = PBXBuildFile; fileRef = D4C369AB2713ABEB00C36D03 /* DivreToire.json */; };
+		F05C174EDEA4C4504B52F660 /* Pods_Parshanim_ParshanimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F58A5C23357B5E456E1E00 /* Pods_Parshanim_ParshanimUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29077F52B7F83F1BBB8BE117 /* Pods-ParshanimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParshanimTests.debug.xcconfig"; path = "Target Support Files/Pods-ParshanimTests/Pods-ParshanimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F99846948E221C7673B2288 /* Pods-Parshanim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parshanim.release.xcconfig"; path = "Target Support Files/Pods-Parshanim/Pods-Parshanim.release.xcconfig"; sourceTree = "<group>"; };
+		53FD5D972685CD014C41A19F /* Pods-Parshanim-ParshanimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parshanim-ParshanimUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parshanim-ParshanimUITests/Pods-Parshanim-ParshanimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		704BE083BFC86B07F4542D79 /* Pods-ParshanimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParshanimTests.release.xcconfig"; path = "Target Support Files/Pods-ParshanimTests/Pods-ParshanimTests.release.xcconfig"; sourceTree = "<group>"; };
+		75E0EFE3722CC7D560D92478 /* Pods-Parshanim-ParshanimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parshanim-ParshanimUITests.release.xcconfig"; path = "Target Support Files/Pods-Parshanim-ParshanimUITests/Pods-Parshanim-ParshanimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84F58A5C23357B5E456E1E00 /* Pods_Parshanim_ParshanimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parshanim_ParshanimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8736604FDEF61BBE9C97AEB7 /* Pods_Parshanim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parshanim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF5CD6CF9AE0E522CE761B1 /* Pods-Parshanim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parshanim.debug.xcconfig"; path = "Target Support Files/Pods-Parshanim/Pods-Parshanim.debug.xcconfig"; sourceTree = "<group>"; };
 		D420B2AC271EC00A00DFF878 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D47277B3272A031000F98936 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		D47277B6272E063D00F98936 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D47277BB272E0B1000F98936 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D47277BD273C262D00F98936 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4C3696527066FC000C36D03 /* Parshanim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parshanim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C3696827066FC000C36D03 /* ParshanimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParshanimApp.swift; sourceTree = "<group>"; };
 		D4C3696A27066FC000C36D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +84,7 @@
 		D4C369A527125D0700C36D03 /* ParashaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParashaDetailView.swift; sourceTree = "<group>"; };
 		D4C369A82713A61A00C36D03 /* DvarToire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvarToire.swift; sourceTree = "<group>"; };
 		D4C369AB2713ABEB00C36D03 /* DivreToire.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DivreToire.json; sourceTree = "<group>"; };
+		F030A521CC121527A846CDA6 /* Pods_ParshanimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParshanimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7071198C61D37586C64E0D9B /* Pods_Parshanim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A510103409F4F9F174BB4516 /* Pods_ParshanimTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +108,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05C174EDEA4C4504B52F660 /* Pods_Parshanim_ParshanimUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B08ABC75C10525049C1611F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8736604FDEF61BBE9C97AEB7 /* Pods_Parshanim.framework */,
+				84F58A5C23357B5E456E1E00 /* Pods_Parshanim_ParshanimUITests.framework */,
+				F030A521CC121527A846CDA6 /* Pods_ParshanimTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9374F72200B95A1DE979E66B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5CD6CF9AE0E522CE761B1 /* Pods-Parshanim.debug.xcconfig */,
+				2F99846948E221C7673B2288 /* Pods-Parshanim.release.xcconfig */,
+				53FD5D972685CD014C41A19F /* Pods-Parshanim-ParshanimUITests.debug.xcconfig */,
+				75E0EFE3722CC7D560D92478 /* Pods-Parshanim-ParshanimUITests.release.xcconfig */,
+				29077F52B7F83F1BBB8BE117 /* Pods-ParshanimTests.debug.xcconfig */,
+				704BE083BFC86B07F4542D79 /* Pods-ParshanimTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D47277B5272E062C00F98936 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D47277B6272E063D00F98936 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D47277B8272E0A7500F98936 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D47277BB272E0B1000F98936 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D4C3695C27066FC000C36D03 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +162,8 @@
 				D4C3697927066FC000C36D03 /* ParshanimTests */,
 				D4C3698427066FC000C36D03 /* ParshanimUITests */,
 				D4C3696627066FC000C36D03 /* Products */,
+				9374F72200B95A1DE979E66B /* Pods */,
+				8B08ABC75C10525049C1611F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +180,9 @@
 		D4C3696727066FC000C36D03 /* Parshanim */ = {
 			isa = PBXGroup;
 			children = (
+				D47277BD273C262D00F98936 /* GoogleService-Info.plist */,
+				D47277B8272E0A7500F98936 /* Helpers */,
+				D47277B5272E062C00F98936 /* Constants */,
 				D4C369AA2713AB8E00C36D03 /* Data */,
 				D4C369A72713A5F300C36D03 /* Models */,
 				D4C369A027067B8500C36D03 /* Views */,
@@ -202,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4C3698A27066FC000C36D03 /* Build configuration list for PBXNativeTarget "Parshanim" */;
 			buildPhases = (
+				4E8B9E2B9739160D97FBA48A /* [CP] Check Pods Manifest.lock */,
 				D4C3696127066FC000C36D03 /* Sources */,
 				D4C3696227066FC000C36D03 /* Frameworks */,
 				D4C3696327066FC000C36D03 /* Resources */,
+				9780CB08D1EEBC3A3D37E55A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4C3698D27066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimTests" */;
 			buildPhases = (
+				31032C39EAA68B6706E99B9A /* [CP] Check Pods Manifest.lock */,
 				D4C3697227066FC000C36D03 /* Sources */,
 				D4C3697327066FC000C36D03 /* Frameworks */,
 				D4C3697427066FC000C36D03 /* Resources */,
@@ -237,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4C3699027066FC000C36D03 /* Build configuration list for PBXNativeTarget "ParshanimUITests" */;
 			buildPhases = (
+				A3DD28812533B5856DABF6E6 /* [CP] Check Pods Manifest.lock */,
 				D4C3697D27066FC000C36D03 /* Sources */,
 				D4C3697E27066FC000C36D03 /* Frameworks */,
 				D4C3697F27066FC000C36D03 /* Resources */,
+				7E0FD441DD7AF0D515B1391E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +371,7 @@
 			files = (
 				D4C369AC2713ABEB00C36D03 /* DivreToire.json in Resources */,
 				D4C3697027066FC000C36D03 /* Preview Assets.xcassets in Resources */,
+				D47277BE273C262D00F98936 /* GoogleService-Info.plist in Resources */,
 				D4C36994270677F200C36D03 /* ParashaList.json in Resources */,
 				D4C3696D27066FC000C36D03 /* Assets.xcassets in Resources */,
 			);
@@ -321,6 +393,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31032C39EAA68B6706E99B9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParshanimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8B9E2B9739160D97FBA48A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parshanim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0FD441DD7AF0D515B1391E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parshanim-ParshanimUITests/Pods-Parshanim-ParshanimUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parshanim-ParshanimUITests/Pods-Parshanim-ParshanimUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parshanim-ParshanimUITests/Pods-Parshanim-ParshanimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9780CB08D1EEBC3A3D37E55A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parshanim/Pods-Parshanim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parshanim/Pods-Parshanim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parshanim/Pods-Parshanim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3DD28812533B5856DABF6E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parshanim-ParshanimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4C3696127066FC000C36D03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -336,7 +511,9 @@
 				D4C3699A27067A0300C36D03 /* FriendsView.swift in Sources */,
 				D4C369A92713A61A00C36D03 /* DvarToire.swift in Sources */,
 				D420B2AD271EC00A00DFF878 /* User.swift in Sources */,
+				D47277BC272E0B1000F98936 /* Helper.swift in Sources */,
 				D4C3696927066FC000C36D03 /* ParshanimApp.swift in Sources */,
+				D47277B7272E063D00F98936 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +667,7 @@
 		};
 		D4C3698B27066FC000C36D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF5CD6CF9AE0E522CE761B1 /* Pods-Parshanim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +690,7 @@
 		};
 		D4C3698C27066FC000C36D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F99846948E221C7673B2288 /* Pods-Parshanim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,6 +713,7 @@
 		};
 		D4C3698E27066FC000C36D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29077F52B7F83F1BBB8BE117 /* Pods-ParshanimTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +736,7 @@
 		};
 		D4C3698F27066FC000C36D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704BE083BFC86B07F4542D79 /* Pods-ParshanimTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +759,7 @@
 		};
 		D4C3699127066FC000C36D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FD5D972685CD014C41A19F /* Pods-Parshanim-ParshanimUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +780,7 @@
 		};
 		D4C3699227066FC000C36D03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E0EFE3722CC7D560D92478 /* Pods-Parshanim-ParshanimUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

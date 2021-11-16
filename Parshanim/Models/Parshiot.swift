@@ -14,7 +14,7 @@ struct Sefer: Codable, Identifiable {
     var parashiot: [Parashah]
 }
 
-struct Parashah: Codable, Equatable, Identifiable {
+struct Parashah: Codable, Equatable, Identifiable, Hashable {
     var id: Int
     var name_en: String
     var name_he: String

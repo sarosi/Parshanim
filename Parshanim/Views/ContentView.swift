@@ -10,14 +10,11 @@ import SwiftUI
 struct ContentView: View {
     
     @AppStorage("kLanguageKey") var language: String = UserDefaults.standard.string(forKey: "kLanguageKey") ?? "english"
-
-    public let parashaList = Bundle.main.decode([Sefer].self,
-                                      from: "ParashaList.json")
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(parashaList) { sefer in
+                ForEach(Constants.parashaList) { sefer in
                     Section(header: Text(language == "english" ? sefer.name_en : sefer.name_he)) {
                         ForEach(sefer.parashiot) { parasha in
                             NavigationLink(destination: ParashaDetailView(parasha: parasha)) {

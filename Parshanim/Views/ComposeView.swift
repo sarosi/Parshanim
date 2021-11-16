@@ -11,6 +11,8 @@ struct ComposeView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
+    @State var parasha: Parashah = Constants.parashaListNoSefer[3]
+    @State var parashaListNoSefer = Constants.parashaListNoSefer
     @State var title: String = ""
     @State var dvarText: String = ""
     @State var showTextField: Bool = false
@@ -18,6 +20,14 @@ struct ComposeView: View {
     var body: some View {
         NavigationView {
             VStack {
+                if (!showTextField) {
+                    Picker(selection: $parasha, label: Text("Parasha"), content: {
+                        ForEach(parashaListNoSefer) { parasha in
+                            Text(parasha.name_en)
+                                .tag(parasha)
+                        }
+                    })
+                }
                 if (!showTextField) {
                     Text("Title")
                     ZStack {
@@ -58,6 +68,7 @@ struct ComposeView: View {
                 }
                 
                 if (showTextField) {
+                    Text(parasha.name_en)
                     Text(title)
                         .foregroundColor(.black)
                         .onTapGesture {
@@ -71,9 +82,6 @@ struct ComposeView: View {
                     .background(Color.gray)
                     .shadow(radius: 3)
                     .padding(.all, 8)
-                    //.padding(.leading, 8)
-                    //.padding(.trailing, 8)
-                    //.padding(.bottom, 18)
                 }
                 Spacer()
                 HStack {
