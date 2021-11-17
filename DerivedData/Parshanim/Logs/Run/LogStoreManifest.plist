@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2B6B5FAE-F178-43A8-916A-F3650660405F</string>
 		</dict>
+		<key>F8DBEA2C-3DAB-4EDD-ADBD-281FD6AC93FA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F8DBEA2C-3DAB-4EDD-ADBD-281FD6AC93FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parshanim project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parshanim</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Parshanim</string>
+			<key>timeStartedRecording</key>
+			<real>658792355.60218203</real>
+			<key>timeStoppedRecording</key>
+			<real>658802381.04746997</real>
+			<key>title</key>
+			<string>Run Parshanim</string>
+			<key>uniqueIdentifier</key>
+			<string>F8DBEA2C-3DAB-4EDD-ADBD-281FD6AC93FA</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
